@@ -1,0 +1,191 @@
+:root {
+    --white: #fff;
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.title {}
+
+.paragraph {}
+
+.btn {}
+
+.subtitle {}
+
+body {
+    height: 100%;
+    color: var(--white);
+    font-family: var(--font-family);
+}
+
+.wrapper {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1352px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(../img/Travel_Time.png) no-repeat 100%/cover;
+    height: 100vh;
+    padding: 72px 0 180px;
+}
+
+.header {}
+
+.nav {
+    margin-bottom: 98px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__item {}
+
+.nav__link {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.hero__desc {
+    margin-bottom: 369px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 96px;
+    margin-bottom: 26px;
+}
+
+.hero__paragraph {
+    font-weight: 275;
+    font-size: 24px;
+}
+
+.hero__btn-wrap {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.hero__btn {
+    display: inline-block;
+    min-width: 190px;
+    border: 1px solid #00b43d;
+    border-radius: 8px;
+    padding: 16px 28px;
+    box-shadow: 0 0 0 4px #fee4e2, 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+    background: #00b43d;
+    line-height: 117%;
+}
+
+/* NATURE */
+
+.nature {
+    height: 100vh;
+    background: url(../img/Body.png) no-repeat 100%/cover;
+    padding: 152px 0 172px;
+}
+
+.nature__subtitle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 54px;
+}
+
+.catalog {}
+
+.catalog__list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.catalog__card {
+    background: rgba(88, 88, 88, 0.5);
+    max-width: 320px;
+    padding: 24px;
+}
+
+.card__img-wrap {
+    max-width: 272px;
+    margin-bottom: 17px;
+}
+
+.card__img {
+    object-fit: contain;
+}
+
+.card__title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 19px;
+}
+
+.card__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.card__btn-wrap {
+    text-align: right;
+
+}
+
+.card__btn {
+    display: inline-block;
+    border-radius: 8px;
+    max-width: 96px;
+    background: rgba(78, 78, 78, 0.45);
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 233%;
+    padding: 6px 17px;
+}
