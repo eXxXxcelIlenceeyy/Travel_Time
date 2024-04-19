@@ -65,6 +65,7 @@ body {
 
 .hero {
     background: url(../img/Travel_Time.png) no-repeat 100%/cover;
+    border-image: fill 0 linear-gradient(#0007, #0007);
     height: 100vh;
     padding: 72px 0 180px;
 }
@@ -129,6 +130,7 @@ body {
 .nature {
     height: 100vh;
     background: url(../img/Body.png) no-repeat 100%/cover;
+    border-image: fill 0 linear-gradient(#0007, #0007);
     padding: 152px 0 172px;
 }
 
@@ -188,4 +190,29 @@ body {
     font-size: 12px;
     line-height: 233%;
     padding: 6px 17px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: url(../img/Footer.png) no-repeat 100%/cover;
+    border-image: fill 0 linear-gradient(#0007, #0007);
+    padding: 161px 0 99px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.footer__desc {
+    max-width: 1205px;
+}
+
+.footer__subtitle {
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 64px;
+}
+
+.footer__paragraph {
+    font-weight: 275;
+    font-size: 32px;
 }
